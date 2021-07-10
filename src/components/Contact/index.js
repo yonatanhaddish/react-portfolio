@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-function AboutMe() {
+function Contact() {
     return(
         <section>
             {/* <img src={profileImage} /> */}
-            <p>This info is about me</p>
+            <p>This is my contact info</p>
         </section>
     )
 }
 
-export default AboutMe;
+export default Contact;

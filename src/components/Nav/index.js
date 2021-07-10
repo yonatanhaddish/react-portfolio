@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 function Nav(props) {
-    const {categories= [], setCurrentCategory, currentCategory}= props;
+    const {categories= [], setCurrentCategory, currentCategory, setAboutSelected}= props;
 
     useEffect(() => {
         document.title= currentCategory.name
