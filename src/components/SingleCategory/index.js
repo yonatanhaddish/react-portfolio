@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AboutMe from '../AboutMe';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
@@ -10,25 +10,14 @@ function SingleCategory({currentCategory}) {
 
     switch(name) {
         case 'About me':
-            return <AboutMe></AboutMe>
+            return  <AboutMe></AboutMe>
         case 'Portfolio':
             return <Portfolio></Portfolio>
         case 'Contact':
             return <Contact></Contact>
-        case 'Resume':
+        default:
             return <Resume></Resume>
     }
-
-    return(
-        <section>
-            <h1>{name}</h1>
-            {/* {name === 'About me' ? (
-                <> <AboutMe></AboutMe> </>
-            ) : (
-                <Portfolio></Portfolio>
-            )} */}
-        </section>
-    )
 }
 
 export default SingleCategory;
