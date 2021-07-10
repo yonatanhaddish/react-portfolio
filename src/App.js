@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import SingleCategory from './components/SingleCategory';
+import Footer from './components/Footer';
 // import AboutMe from './components/AboutMe';
 // import Resume from './components/Resume';
 
@@ -25,7 +26,11 @@ function App() {
         
         <SingleCategory currentCategory= {currentCategory}> </SingleCategory>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
+    
   );
 }
 
