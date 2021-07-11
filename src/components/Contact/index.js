@@ -10,20 +10,20 @@ function Contact() {
     function handleChange(event) {
         if (event.target.name === 'email') {
             const isValid= validateEmail(event.target.value);
-            console.log(isValid);
             if (!isValid) {
                 setErrorMessage('Your email is invalid');
             }
+            return;
+        }
+        else if (event.target.name === 'name' || 'message') {
+            if (!event.target.value.length) {
+                setErrorMessage(`${event.target.name} is required`);
+            }
             else {
-                if (!event.target.value.length) {
-                    setErrorMessage(`${event.target.name} is required`);
-                }
-                else {
-                    // console.log(event.target.value)
-                    setErrorMessage('');
-                }
+                setErrorMessage('')
             }
         }
+        
         if (!errorMessage) {
             setFromState({...fromState, [event.target.name]: event.target.value});
         }
