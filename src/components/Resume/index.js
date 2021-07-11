@@ -3,7 +3,31 @@ import React from 'react';
 function Resume() {
     return(
         <section>
-            <p>This is a Resume of me</p>
+            <h1>Resume</h1>
+            <div>
+                <h3>Front-End</h3>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>React</li>
+                    <li>Bootstrap</li>
+                </ol>
+            </div>
+            <div>
+            <h3>Back-End</h3>
+                <ol>
+                    <li>APIs</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MySQL, Sequelize</li>
+                    <li>REST</li>
+                    <li>GraphQL</li>
+                </ol>
+            </div>
+            
+
         </section>
     );
 }
