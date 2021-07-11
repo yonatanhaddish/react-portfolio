@@ -4,7 +4,7 @@ function AboutMe() {
     return(
         <section>
             <div>
-                <h1>About Me</h1>
+                <h2 className="h2-title">About Me</h2>
             </div>
             <img 
                 src={require(`../../assets/profile/profilephoto.jpg`).default}

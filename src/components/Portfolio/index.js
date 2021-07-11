@@ -4,7 +4,7 @@ function Portfolio(proppass) {
     const { projects=[] }= proppass;
     return(
         <header>
-            <h2>Portfolio</h2>
+            <h2 className="h2-title">Portfolio</h2>
             <div className="grid-container"> 
                 <div className="grid-layout">
                     {projects.map((project) => (

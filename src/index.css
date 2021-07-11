@@ -60,7 +60,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 h3 {
@@ -82,6 +82,10 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+}
+
+.h2-title {
+  font-family: "Chalkduster, fantasy";
 }
 
 .about-me {
@@ -221,6 +225,7 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 
