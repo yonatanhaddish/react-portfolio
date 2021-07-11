@@ -31,7 +31,7 @@ function Contact() {
 
     function handleSubmit(event) {
         event.preventDefault();
-        console.log(fromState);
+        // console.log(fromState);
     };
 
     return(
