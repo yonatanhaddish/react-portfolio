@@ -226,6 +226,8 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
   border-radius: 50%;
+  border-color: var(--primary);
+  border: bold;
 }
 
 
