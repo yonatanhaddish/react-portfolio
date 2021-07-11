@@ -14,6 +14,7 @@ function App() {
     { name: "Contact", description: "contact me"},
     { name: "Resume", description: "my resume"}
   ]);
+
   const [currentCategory, setCurrentCategory]= useState(categories[0]);
   // const [aboutSelected, setAboutSelected]= useState(true);
   return (
