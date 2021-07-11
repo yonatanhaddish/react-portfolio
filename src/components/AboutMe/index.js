@@ -11,7 +11,14 @@ function AboutMe() {
                 alt="profile"
                 className="img-thumbnail mx-1"
                 key="profile" />
-            <p>This info is about me</p>
+            <p className="about-me">This is where information of me goes.
+            This is where information of me goes.
+            This is where information of me goes.
+            This is where information of me goes.
+            This is where information of me goes.
+            This is where information of me goes.
+            This is where information of me goes.
+             </p>
         </section>
     )
 }

@@ -10,7 +10,7 @@ function Nav(props) {
     return(
         <header className="flex-row px-1">
             <h2>Yonatan</h2>
-            <nav>
+            <nav className="nav-style">
                 <ul className="flex-row">
                     {categories.map((category) => (
                         <li className={`mx-1 ${currentCategory.name === category.name && 'navActive'}`} key={category.name}>

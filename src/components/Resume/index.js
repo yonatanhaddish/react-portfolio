@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return(
         <section>
-            <h1>Resume</h1>
+            <h2>Resume</h2>
             <div>
                 <h3>Front-End</h3>
                 <ol>
