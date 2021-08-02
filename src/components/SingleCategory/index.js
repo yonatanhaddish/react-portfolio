@@ -41,6 +41,12 @@ function SingleCategory({currentCategory}) {
             github: "https://github.com/yonatanhaddish/food-festival",
             tools: "HTML, CSS, JavaScript",
             website: "https://yonatanhaddish.github.io/food-festival/"
+        },
+        {
+            name: "Art-Gallery-Online(AGO)",
+            github: "https://github.com/Stevtm/art-gallery-online",
+            tools: "React, Express, Mongoose, Apollo Server, Firebase, Bootstap, GraphQL, styled-components, jsonwebtoken, Stripe",
+            website: "https://shrouded-sands-03163.herokuapp.com/"
         }
     ]);
 
