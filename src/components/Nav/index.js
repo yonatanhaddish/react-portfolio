@@ -9,7 +9,7 @@ function Nav(props) {
 
     return(
         <header className="flex-row px-1">
-            <h2>Yonatan</h2>
+            <h2 className="name">Yonatan</h2>
             <nav className="nav-style">
                 <ul className="flex-row">
                     {categories.map((category) => (

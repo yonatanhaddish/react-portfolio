@@ -12,8 +12,9 @@ function Portfolio(proppass) {
                             <div className={`${project.name}`}>
                                 <h2><b>{project.name}</b></h2>
                                 <p>{project.tools}</p>
-                                <a href={project.github}>🔗</a>
-                                <a href={project.website}>💻</a>
+                                <a className="github-link" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
+                                <br></br>
+                                <a className="website-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
                             </div> 
                         </div>
                     ))}
