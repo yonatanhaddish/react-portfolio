@@ -30,6 +30,7 @@ body {
 }
 
 body {
+  /* display: flex; */
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -104,8 +105,9 @@ p {
 }
 
 .footer {
+  border-top: groove 2px;
   text-align: center;
-  
+  margin-top: 384px;
 }
 
 .error-text {
@@ -125,6 +127,9 @@ a:hover {
 header {
   justify-content: space-between;
   border-bottom: groove 2px;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
 }
 
 header a {
@@ -229,7 +234,8 @@ textarea {
 .card {
   width: 500%;
   text-align: center;
-  border: groove;
+  border: groove 2px;
+  border-color: var(--primary);
 }
 
 .img-thumbnail {
