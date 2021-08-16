@@ -95,6 +95,16 @@ p {
   margin-top: 0;
 }
 
+.tool-list {
+  transition: 0.2s;
+}
+
+.tool-list:hover{
+  color: #8c54ff;
+  font-size: 25px;
+  opacity: 1;
+}
+
 .h2-title {
   font-family: "Chalkduster, fantasy";
 }
