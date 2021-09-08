@@ -24,7 +24,7 @@ function Resume() {
                 </ol>
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1_pxnLuI0msqU_zYie-bRu1Mdb6qiQwKe/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1m83vwBFpt0hV-ZKb6enUfAJI8ZiCrLpf/view?usp=sharing"
                     target="_blank" rel="noopener noreferrer" >
                     <button>Download Resume</button>
                 </a>
