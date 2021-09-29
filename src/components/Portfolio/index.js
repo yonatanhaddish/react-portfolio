@@ -1,4 +1,5 @@
 import React from 'react';
+import bk_img from '../../assets/bk-img/run-buddy.png';
 
 function Portfolio(proppass) {
     const { projects=[] }= proppass;
@@ -8,7 +9,7 @@ function Portfolio(proppass) {
             <div className="grid-container"> 
                 <div className="grid-layout">
                     {projects.map((project) => (
-                        <div className="card" key={project.name}>
+                        <div className="card" key={project.name} style={{backgroundImage: `url(${bk_img})`}}>
                             <div className={`${project.name}`}>
                                 <h2><b>{project.name}</b></h2>
                                 <p>{project.tools}</p>
@@ -17,6 +18,7 @@ function Portfolio(proppass) {
                                 <a className="website-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
                             </div> 
                         </div>
+                        // <img src={bk_img} className="my-2" style={{width: "100%"}} alt="cover" />
                     ))}
                 </div>
                 
