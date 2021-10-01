@@ -260,6 +260,9 @@ textarea {
   height: 100%;
   width: 100%;
 }
+#singleproject {
+  padding-right: 200px;
+}
 
 .img-thumbnail {
   width: auto;
