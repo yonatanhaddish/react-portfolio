@@ -8,7 +8,7 @@ function Footer() {
                 <a href="https://github.com/yonatanhaddish" target="_blank" rel="noopener noreferrer" style= {{textDecoration: "none"}}>Github</a>
             </div>
             <div>
-            <a href="https://www.linkedin.com/in/yonatan-haddish-2a5b93205/" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>Linkedin</a>
+            <a href="https://www.linkedin.com/in/yonatan-haddish" target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>Linkedin</a>
             </div>
             <div>
                 <a href="mailto:yonihailshn@gmail.com" style={{textDecoration: "none"}}>yonihailshn@gmail.com</a>
