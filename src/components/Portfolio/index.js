@@ -10,14 +10,20 @@ function Portfolio(proppass) {
                 <div className="grid-layout">
                     {projects.map((project) => (
                         <div className="card" key={project.name}>
-                            <div className={`${project.name}`}>
-                                <h2><b>{project.name}</b></h2>
-                                <p>{project.tools}</p>
-                                <a className="github-link" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
+                            <div id="singleproject" className={`${project.name}`}>
+                                <h3><b>{project.name}</b></h3>
+                            </div> 
+                            <div>
+                                <p className="pp">{project.description}</p>
+                            </div>  
+                            <div>
+                                <p>Tools: {project.tools}</p>
+                            </div> 
+                            <div>
+                            <a className="github-link" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
                                 <br></br>
                                 <a className="website-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>  
-                            </div> 
-                            
+                            </div>  
                         </div>
                     ))}
                 </div>

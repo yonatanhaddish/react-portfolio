@@ -250,12 +250,20 @@ textarea {
 }
 
 .card {
-  width: 500%;
   text-align: center;
   border: groove 2px;
   border-color: var(--primary);
+  box-shadow: 0 4px 8px 0 rgba(115, 194, 12, 0.2); /* this adds the "card" effect */
+  padding: 6px;
+  text-align: center;
+  /* background-color: #706767cb; */
+  height: 100%;
+  width: 100%;
 }
 
+/* #singleproject {
+  padding-right: 300px;
+} */
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -298,7 +306,12 @@ a {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(207, 7, 7, 0.2);
   color: var(--primary);
-  
+}
+
+.pp {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: auto;
 }
 
 .column {
@@ -317,14 +330,6 @@ a {
   clear: both;
 }
 
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(115, 194, 12, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  /* background-color: #706767cb; */
-}
-
 .grid-container {
   /* width: 300%; */
   display: flex;
@@ -339,11 +344,5 @@ a {
   grid-gap: 10px;
   grid-auto-flow: dense;
   /* border: solid; */
-}
-
-.card {
-   /* border: solid; */
-   /* color: #B12704; */
-   width: 100%;
 }
 
