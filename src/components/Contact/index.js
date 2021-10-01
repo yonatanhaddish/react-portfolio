@@ -55,7 +55,9 @@ function Contact() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit">
+                    <a href="mailto:yonihailshn@gmail.com" style={{color: "white", textDecoration: "none"}}>submit</a>
+                </button>
             </form>
         </section>
     );
