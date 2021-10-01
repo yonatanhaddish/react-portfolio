@@ -118,6 +118,14 @@ p {
   border-top: groove 2px;
   text-align: center;
   margin-top: 384px;
+  font-family: Georgia; 
+}
+.footer,a:hover {
+  color: white;
+}
+
+.p:hover {
+  color: white;
 }
 
 .error-text {
