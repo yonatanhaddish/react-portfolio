@@ -12,17 +12,19 @@ function Portfolio(proppass) {
                         <div className="card" key={project.name}>
                             <div id="singleproject" className={`${project.name}`}>
                                 <h3><b>{project.name}</b></h3>
+                                <p>Tools: {project.tools}</p>
+                                <a className="github-link" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
+                                <br></br>
+                                <a className="website-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>  
                             </div> 
                             <div>
                                 <p className="pp">{project.description}</p>
                             </div>  
                             <div>
-                                <p>Tools: {project.tools}</p>
+                                
                             </div> 
                             <div>
-                            <a className="github-link" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
-                                <br></br>
-                                <a className="website-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>  
+                                
                             </div>  
                         </div>
                     ))}
