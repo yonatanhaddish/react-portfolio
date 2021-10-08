@@ -5,12 +5,15 @@ function Portfolio(proppass) {
     const { projects=[] }= proppass;
     return(
         <header>
-            <h2 className="h2-title">Portfolio</h2>
+            <h1 className="h1-title">Welcome to my Portfolio</h1>
             <div className="cardtrial">
                 {/* <div className="innercard"> */}
                     {projects.map((project) => (
                         <div className="newcard" key={project.name}>
-                            <div className="innercard">
+                            <div className="background-card flex-child">
+                                <h1>{project.name}</h1>
+                            </div>
+                            <div className="inner-card flex-child">
                                 <h3 className="pro-name">{project.name}</h3>
                                 <p className="pro-description">{project.description}</p>
                                 <a className="pro-github" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
