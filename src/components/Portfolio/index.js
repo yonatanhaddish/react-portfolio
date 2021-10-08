@@ -6,7 +6,28 @@ function Portfolio(proppass) {
     return(
         <header>
             <h2 className="h2-title">Portfolio</h2>
-            <div className="grid-container"> 
+            <div className="cardtrial">
+                {/* <div className="innercard"> */}
+                    {projects.map((project) => (
+                        <div className="newcard" key={project.name}>
+                            <div className="innercard">
+                                <h3 className="pro-name">{project.name}</h3>
+                                <p className="pro-description">{project.description}</p>
+                                <a className="pro-github" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
+                                <a className="pro-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
+                            </div>
+                        </div>
+                    ))}
+                {/* </div> */}
+            </div>
+            
+        </header>
+    );
+}
+
+export default Portfolio;
+
+{/* <div className="grid-container"> 
                 <div className="grid-layout">
                     {projects.map((project) => (
                         <div className="card" key={project.name}>
@@ -22,11 +43,5 @@ function Portfolio(proppass) {
                             </div> 
                         </div>
                     ))}
-                </div>
-                
-            </div>
-        </header>
-    );
-}
-
-export default Portfolio;
+                </div>    
+            </div> */}
