@@ -16,6 +16,7 @@ function Portfolio(proppass) {
                             <div className="inner-card flex-child">
                                 <h3 className="pro-name">{project.name}</h3>
                                 <p className="pro-description">{project.description}</p>
+                                <p className= "pro-tools">{project.tools}</p>
                                 <a className="pro-github" href={project.github} target="_blank" rel="noopener noreferrer">Github</a>
                                 <a className="pro-link" href={project.website} target="_blank" rel="noopener noreferrer">Website</a>
                             </div>
