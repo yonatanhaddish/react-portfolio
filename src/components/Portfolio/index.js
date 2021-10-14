@@ -10,7 +10,7 @@ function Portfolio(proppass) {
                 {/* <div className="innercard"> */}
                     {projects.map((project) => (
                         <div className="newcard" key={project.name}>
-                            <div style={{backgroundImage: `url(./assets/bk_img/Food Festival.png)`}} className="background-card flex-child">
+                            <div style={{backgroundImage: `url()`}} className="background-card flex-child">
                                 <h1>{project.name}</h1>
 
                             </div>
