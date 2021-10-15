@@ -181,9 +181,10 @@ button[disabled] {
 }
 
 img {
-  width: 100%;
+  width: 80%;
   height: 90%;
   margin-top: 10px;
+  margin-left: 30px;
 }
 
 form {
