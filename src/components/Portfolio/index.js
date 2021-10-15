@@ -12,9 +12,7 @@ function Portfolio(proppass) {
                     {projects.map((project) => (
                         <div className="newcard" key={project.name}>
                             <div className="background-card flex-child">
-                                {/* <img style={{backgroundImage: `url("../../assets/bk-img/Weather app.png")`}} alt={project.name} key={project.name}/> */}
-                                <img src={require(`../../assets/bk-img/Quiz app.png`).default}/>
-
+                                <img src={require(`../../assets/bk-img/${project.name}.png`).default}/>
                             </div>
                             <div className="inner-card flex-child">
                                 <h3 className="pro-name">{project.name}</h3>

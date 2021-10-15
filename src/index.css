@@ -181,11 +181,8 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
-}
-
-span[role="img"] {
-  cursor: default;
+  width: 100%;
+  height: 90%;
 }
 
 form {
