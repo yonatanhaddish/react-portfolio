@@ -139,7 +139,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header {
@@ -379,6 +379,10 @@ h3:only-of-type {
 
 .pro-tools {
   font-family: 'Neuton', serif;
+}
+
+.pro-link {
+  margin-left: 20px;
 }
 
 .contact-about {
