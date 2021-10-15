@@ -1,5 +1,6 @@
 import React from 'react';
 // import bk_img from '../../assets/bk-img';
+// import backg from '../../assets/bk-img/'
 
 function Portfolio(proppass) {
     const { projects=[] }= proppass;
@@ -10,8 +11,9 @@ function Portfolio(proppass) {
                 {/* <div className="innercard"> */}
                     {projects.map((project) => (
                         <div className="newcard" key={project.name}>
-                            <div style={{backgroundImage: `url()`}} className="background-card flex-child">
-                                <h1>{project.name}</h1>
+                            <div className="background-card flex-child">
+                                {/* <img style={{backgroundImage: `url("../../assets/bk-img/Weather app.png")`}} alt={project.name} key={project.name}/> */}
+                                <img src={require(`../../assets/bk-img/Quiz app.png`).default}/>
 
                             </div>
                             <div className="inner-card flex-child">
