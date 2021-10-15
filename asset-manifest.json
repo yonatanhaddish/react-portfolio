@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ae3ed336.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8ce38e6f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8ce38e6f.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.f28c7988.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f28c7988.js.map",
+    "main.css": "/react-portfolio/static/css/main.d5af09c0.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ceb07834.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ceb07834.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.2401a2f3.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.2401a2f3.js.map",
     "static/js/2.aa9bc998.chunk.js": "/react-portfolio/static/js/2.aa9bc998.chunk.js",
     "static/js/2.aa9bc998.chunk.js.map": "/react-portfolio/static/js/2.aa9bc998.chunk.js.map",
-    "static/js/3.3f97f544.chunk.js": "/react-portfolio/static/js/3.3f97f544.chunk.js",
-    "static/js/3.3f97f544.chunk.js.map": "/react-portfolio/static/js/3.3f97f544.chunk.js.map",
+    "static/js/3.0cd60a8c.chunk.js": "/react-portfolio/static/js/3.0cd60a8c.chunk.js",
+    "static/js/3.0cd60a8c.chunk.js.map": "/react-portfolio/static/js/3.0cd60a8c.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.ae3ed336.chunk.css.map": "/react-portfolio/static/css/main.ae3ed336.chunk.css.map",
-    "static/js/2.aa9bc998.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.aa9bc998.chunk.js.LICENSE.txt"
+    "static/css/main.d5af09c0.chunk.css.map": "/react-portfolio/static/css/main.d5af09c0.chunk.css.map",
+    "static/js/2.aa9bc998.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.aa9bc998.chunk.js.LICENSE.txt",
+    "static/media/Art-Gallery-Online(AGO).png": "/react-portfolio/static/media/Art-Gallery-Online(AGO).d6be4a1b.png",
+    "static/media/Food Festival.png": "/react-portfolio/static/media/Food Festival.199f8b14.png",
+    "static/media/Quiz app.png": "/react-portfolio/static/media/Quiz app.602e8901.png",
+    "static/media/Robot Gladiators.png": "/react-portfolio/static/media/Robot Gladiators.0fdb7b60.png",
+    "static/media/Run Buddy.png": "/react-portfolio/static/media/Run Buddy.541407d6.png",
+    "static/media/Task Master.png": "/react-portfolio/static/media/Task Master.78ce128c.png",
+    "static/media/Weather app.png": "/react-portfolio/static/media/Weather app.f6bb3c35.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f28c7988.js",
+    "static/js/runtime-main.2401a2f3.js",
     "static/js/2.aa9bc998.chunk.js",
-    "static/css/main.ae3ed336.chunk.css",
-    "static/js/main.8ce38e6f.chunk.js"
+    "static/css/main.d5af09c0.chunk.css",
+    "static/js/main.ceb07834.chunk.js"
   ]
 }
