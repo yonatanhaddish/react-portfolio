@@ -7,7 +7,7 @@ function AboutMe() {
                 <h2 className="h2-title">About Me</h2>
             </div>
             <img 
-                src={require(`../../assets/profile/profilephoto.jpg`).default}
+                src={require(`../../assets/profile/profile-photo.jpeg`).default}
                 alt="profile"
                 className="img-thumbnail mx-1"
                 key="profile" />
